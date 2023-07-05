@@ -15,7 +15,7 @@
                 if(counter < 0){
                     counter = pictures.length -1
                 }
-                imgDiv.style.background = `url("img/${pictures[counter]}.jpg")`
+                imgDiv.style.background = `url("img/${pictures[counter]}.jpg")center/cover fixed no-repeat`
               }
 
               if (button.classList.contains('btn-right')){
@@ -23,7 +23,7 @@
                 if(counter > pictures.length -1){
                     counter = 0
                 }
-                imgDiv.style.background = `url("img/${pictures[counter]}.jpg")`
+                imgDiv.style.background = `url("img/${pictures[counter]}.jpg")center/cover fixed no-repeat`
               }
         })
     });
